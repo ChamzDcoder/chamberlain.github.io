@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="input.css">
+    <title>Document</title>
+</head>
+<body>
+  <header class="bg-[#F9E0AE] px-4 sm:px-8 py-3 flex justify-between items-center mb-[82px]">
+    <!-- Logo Section -->
+    <div class="flex items-center space-x-2">
+      <img src="./Assets/logo1.png" alt="Logo" class="w-10 h-10" />
+      <img src="./Assets/Educare.svg" alt="" class="w-24 h-auto">
+    </div>
+
+   
+    <!-- Navigation Links -->
+    <nav class="hidden md:flex space-x-6 items-center">
+      <a href="#" class="text-black hover:text-orange-600 font-poppins font-semibold text-lg">Home</a>
+      <a href="#" class="text-black hover:text-orange-600 font-poppins font-semibold text-lg">About</a>
+      <div class="relative group">
+        <button class="flex items-center text-black hover:text-orange-600 font-poppins font-semibold text-lg">
+          Courses <span class="ml-1">v</span>
+        </button>
+        <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded">
+          <a href="#" class="block px-4 py-2 text-black hover:bg-yellow-100 font-poppins font-semibold text-lg">
+            Course 1
+          </a>
+          <a href="#" class="block px-4 py-2 text-black hover:bg-yellow-100 font-poppins font-semibold text-lg">
+            Course 2
+          </a>
+        </div>
+      </div>
+
+      <div class="relative group">
+        <button class="flex items-center text-black hover:text-orange-600 font-poppins font-semibold text-lg">
+          Blog <span class="ml-1">v</span>
+        </button>
+        <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded">
+          <a href="#" class="block px-4 py-2 text-black hover:bg-yellow-100 font-poppins font-semibold text-lg">
+            Blog 1
+          </a>
+          <a href="#" class="block px-4 py-2 text-black hover:bg-yellow-100 font-poppins font-semibold text-lg">
+            Blog 2
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact Button -->
+    <a href="#" class="text-white font-bold text-lg flex items-center justify-center rounded-[10px] shadow-md transition bg-[#C24914] px-6 py-2">
+      contact us
+    </a>
+
+    <!-- Mobile Menu Button -->
+    <button class="md:hidden text-black">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 6.75h16.5m-16.5 6.75h16.5" />
+      </svg>
+    </button>
+    
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-white py-12 px-4 sm:px-8 lg:px-16 mb-[244px]">
+    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center">
+      <!-- Text Section -->
+      <div class="lg:w-1/2 text-center lg:text-left">
+        <h1 class="font-poppins font-bold text-black mb-4 text-4xl leading-tight">
+          Start learning <br /> with us now
+        </h1>
+        <p class="text-gray-600 font-poppins mb-6 text-lg max-w-lg mx-auto lg:mx-0">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laboriosam voluptates sed beatae?
+        </p>
+        <a href="#" class="text-white flex items-center justify-center rounded-[10px] shadow-md transition bg-[#682C0E] w-48 h-11">
+          Start learning
+        </a>
+      </div>
+
+      <!-- Image Section -->
+      <div class="lg:w-1/2 mt-8 lg:mt-0 flex justify-center">
+        <img src="./Assets/picture1.png" alt="Learning Illustration" class="w-full max-w-md" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Info Section -->
+  <section class="bg-white py-12 px-4 sm:px-8 lg:px-16 flex items-center justify-center min-h-screen mx-auto">
+    <div class="container mx-auto px-12">
+      <div class="flex flex-col md:flex-row items-center bg-white overflow-hidden">
+        <!-- Image Section -->
+        <div class="w-full md:w-1/2">
+          <img src="./Assets/picture2.png" alt="Online Learning" class="w-full h-full object-cover" />
+        </div>
+
+        <!-- Text Section -->
+        <div class="w-full md:w-1/2 p-6 text-center md:text-left">
+          <h1 class="text-4xl font-semibold mb-4 text-gray-800">
+            Welcome to the Online Centers
+          </h1>
+          <ul class="list-disc list-inside space-y-2 text-gray-600 text-lg font-normal max-w-md mx-auto md:mx-0">
+            <li>Start learning from your experience</li>
+            <li>Enhance your skills with us now</li>
+            <li>Do your favorite course</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Account Registration -->
+  <section class="bg-white py-12 px-4 sm:px-8 lg:px-16 flex items-center justify-center min-h-screen mx-auto">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row items-center bg-white p-6">
+        <!-- Text Section -->
+        <div class="w-full md:w-auto h-auto flex items-center max-w-lg mx-auto md:mx-0">
+          <h1 class="text-4xl font-semibold">
+            Start learning by creating a free account <br /> and get registered
+          </h1>
+        </div>
+
+        <!-- Image Section -->
+        <div class="w-full md:w-1/2 flex justify-center mt-8 md:mt-0">
+          <img src="./Assets/picture3.png" alt="Student Image" class="w-full max-w-xs object-cover rounded-lg" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscription Form -->
+  <div class="mt-8 p-6 rounded-lg flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 mx-auto bg-[#F9E0AE] max-w-5xl">
+    <input type="text" placeholder="Your name" class="w-full md:w-80 h-16 p-3 border border-gray-300 rounded-md text-gray-600 focus:outline-none focus:ring focus:ring-yellow-300" />
+    <input type="email" placeholder="Your email address" class="w-full md:w-80 h-16 p-3 border border-gray-300 rounded-md text-gray-600 focus:outline-none focus:ring focus:ring-yellow-300" />
+    <button class="w-full md:w-80 h-16 bg-orange-600 text-white rounded-md font-semibold hover:bg-orange-700">
+      Subscribe
+    </button>
+  </div>
+
+  <!-- Community Section -->
+  <section class="relative bg-white mx-auto mt-[206px] px-4" style="width: 100%; max-width: 1117px; height: 780px;">
+    <div class="container mx-auto py-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <!-- Text Content -->
+        <div class="flex flex-col items-start space-y-4">
+          <h1 class="text-gray-800 text-4xl font-semibold max-w-lg">
+            Start growing with <br> our community
+          </h1>
+          <p class="text-gray-600 text-lg font-normal max-w-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <div class="mt-16 flex justify-start md:justify-center">
+            <button class="w-72 h-14 rounded-[10px] bg-orange-500 text-white px-6 py-3 font-semibold hover:bg-orange-600">
+              Join community
+            </button>
+          </div>
+        </div>
+
+        <!-- Main Image -->
+        <div class="relative">
+          <img src="./Assets/picture4.png" alt="Main Student Image" class="w-full h-full object-cover" />
+          <!-- Floating Images -->
+          <div class="absolute top-0 left-10 transform -translate-x-1/2 -translate-y-1/2">
+            <img src="./Assets/picture5.png" alt="Small Image 1" class="w-24 h-24 rounded-full shadow-lg border-2 border-white" />
+          </div>
+          <div class="absolute top-4 right-8 transform translate-x-1/2 -translate-y-1/2">
+            <img src="./Assets/picture6.png" alt="Small Image 2" class="w-24 h-24 rounded-full shadow-lg border-2 border-white" />
+          </div>
+          <div class="absolute bottom-10 left-12 transform -translate-x-1/2 translate-y-1/2">
+            <img src="./Assets/picture7.png" alt="Small Image 3" class="w-24 h-24 rounded-full shadow-lg border-2 border-white" />
+          </div>
+          <div class="absolute bottom-4 right-16 transform translate-x-1/2 translate-y-1/2">
+            <img src="./Assets/picture8.png" alt="Small Image 4" class="w-24 h-24 rounded-full shadow-lg border-2 border-white" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#F9E0AE] py-8">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Logo -->
+        <div class="flex flex-col space-y-4">
+          <div class="flex items-center space-x-4">
+            <img src="./Assets/logo1.png" alt="Educare Logo" class="w-10 h-10" />
+            <img src="./Assets/Educare.svg" alt="Educare Text" class="w-24 h-auto" />
+          </div>
+        </div>
+
+        <!-- Follow Us -->
+        <div>
+          <h3 class="font-bold text-gray-800 mb-4">Follow us</h3>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-800 hover:text-gray-600">
+              <img src="./Assets/twitter.svg" alt="Twitter" class="w-8 h-8" />
+            </a>
+            <a href="#" class="text-gray-800 hover:text-gray-600">
+              <img src="./Assets/In.svg" alt="LinkedIn" class="w-8 h-8" />
+            </a>
+            <a href="#" class="text-gray-800 hover:text-gray-600">
+              <img src="./Assets/facebook.svg" alt="Facebook" class="w-8 h-8" />
+            </a>
+            <a href="#" class="text-gray-800 hover:text-gray-600">
+              <img src="./Assets/instagram.svg" alt="Instagram" class="w-8 h-8" />
+            </a>
+          </div>
+        </div>
+
+        <!-- Useful Links -->
+        <div>
+          <h3 class="font-bold text-gray-800 mb-4">Useful Links</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-600 hover:text-gray-800">Our Projects</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-gray-800">FAQ's</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-gray-800">News and Updates</a></li>
+          </ul>
+        </div>
+
+        <!-- Contacts -->
+        <div>
+          <h3 class="font-bold text-gray-800 mb-4">Contacts</h3>
+          <p class="text-gray-600">Address: 4-5 Main Road, Delhi</p>
+          <p class="text-gray-600">Email: educare@gmail.com</p>
+          <p class="text-gray-600">Phone Number: +91 4533433265</p>
+        </div>
+      </div>
+
+      <!-- Bottom Section -->
+      <div class="border-t border-gray-300 mt-8 pt-4 text-center">
+        <p class="text-gray-600">&copy; 2025 All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+
+    
+    
+  
+      
+    
+</html>
